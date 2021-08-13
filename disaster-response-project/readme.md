@@ -26,5 +26,10 @@
 ## Author
 Michael Khumalo (git) or Michael Khumalo (linkedin)
 ## Screenshot
-1. Top Navigation at Home Page
-2. 
+1. Top Navigation Home
+    ![Alt text](/screenshots/top_nav_home.png?raw=true "Top Navigation")
+3. Overview of Training Dataset
+4. Classification Results
+5. app.run shot sample output
+6. data.process_data shot sample output
+7. models.train_classifier shot sample output
