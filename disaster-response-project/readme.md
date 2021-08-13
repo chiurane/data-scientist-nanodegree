@@ -17,7 +17,17 @@ The project is made up of three components:
   3. A models component which trains a classifier on the data set and stores the results a pickle file that call be queried in realtime to show classification results.
 ## Getting Started
   - Dependencies
+      Python 3.7+: The core python language used throughout the project
+      NumPy, SciPy, Pandas, Sciki-Learn: Machine Learning pipeline libraries
+      NLTK: A Natural Langauge Processing (NLP) for NLP functions
+      sqlalchemy: sqlite database for storing processed messages from raw csv files. 
+      pickle: For persisiting models
+      Flask, Plotly: Presentation layer for our web application and visualizations
+      Heroku: platform for deploying and running application workloads
   - Installation (locally)
+    Simply clone the following data science repo and get cracking:
+    git clone https://github.com/chiurane/data-scientist-nanodegree.git
+    The file classifier.pkl is to big to updload here so you will have to run "python -m models.train_classifier" to get the pkl file on your own machine
   - Installation (Heroku)
   - Running the Application
     Run the following commands (in this order) in the project's root directory to setup the database and data science assets:
