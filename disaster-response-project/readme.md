@@ -26,3 +26,5 @@
 ## Author
 Michael Khumalo (git) or Michael Khumalo (linkedin)
 ## Screenshot
+1. Top Navigation at Home Page
+2. 
