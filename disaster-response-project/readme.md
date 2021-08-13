@@ -27,7 +27,7 @@
 Michael Khumalo (git) or Michael Khumalo (linkedin)
 ## Screenshot
 1. Top Navigation Home
-    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/app_run_shot.PNG "Top Navigation")
+    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/top_nav_home.PNG "Top Navigation")
 3. Overview of Training Dataset
 4. Classification Results
 5. app.run shot sample output
