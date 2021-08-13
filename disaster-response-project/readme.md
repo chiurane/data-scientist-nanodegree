@@ -3,10 +3,17 @@
 ## Table of Contents
 1. Introduction
 2. Getting Started
-3. Dependencies
-4. Author
-5. Screenshots
+  - Dependencies
+  - Installation (locally)
+  - Installation (Heroku)
+  - Running the application
+5. Author
+6. Screenshots
 ## Introduction
 ## Getting Started
+  - Dependencies
+  - Installation (locally)
+  - Installation (Heroku)
+  - Running the Application
 ## Author
 ## Screenshot
