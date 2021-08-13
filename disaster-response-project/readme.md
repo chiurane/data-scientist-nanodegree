@@ -10,6 +10,11 @@
 5. Author
 6. Screenshots
 ## Introduction
+There are a number of use cases for classifying text into categories. Classifying messages to enable efficiency and effective deployment during a disaster is one of those use cases. We focus on this in the Disaster Response Pipeline Project. Using data from Figure 8 we train a classifier to automacally classifier messages and build a front so that users can view classifications in realtime.
+The project is made up of three components:
+  1. A web application front where messages can be entered and classification results displayed to the user
+  2. A data component which is an ETL for cleaning the Figure 8 data and storing it in a sqlite database
+  3. A models component which trains a classifier on the data set and stores the results a pickle file that call be queried in realtime to show classification results.
 ## Getting Started
   - Dependencies
   - Installation (locally)
