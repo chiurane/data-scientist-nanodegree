@@ -24,7 +24,7 @@
         python -m app.run
     - Go to http://localhost:3001/ if accessing locally otherwise go to ... on Heroku to access UI.
 ## Author
-[Michael Khumalo](https://github.com/chiurane) ([git](github.com)) or [Michael Khumalo](linkedin.com/chiurane) ([linkedin](linkedin.com))
+[Michael Khumalo](https://github.com/chiurane) ([git](https//github.com)) or [Michael Khumalo](https://linkedin.com/chiurane) ([linkedin](linkedin.com))
 ## Screenshot
 1. Top Navigation Home
     ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/top_nav_home.PNG "Top Navigation")
