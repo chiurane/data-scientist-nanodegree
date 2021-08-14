@@ -19,16 +19,21 @@ from . import utils
 app = Flask(__name__)
 
 # load data
+
 print('() [ info ] Opening database using engine ...'.format(datetime.now()))
-db_path = os.path.join(os.getcwd(), 'data\DisasterResponse.db')
+db_path = 'data/DisasterResponse.db'
+
 print('{} [ info ] DB path: {}'.format(datetime.now(), db_path))
-pkl_path = os.path.join(os.getcwd(), "models/classifier.pkl")
+pkl_path = "models/classifier.pkl"
+
 print('{} [ info ] Pickle path: {}'.format(datetime.now(), pkl_path))
 engine = create_engine('sqlite:///{}'.format(db_path))
 df = pd.read_sql_table('message', engine)
 
 # load model
 model = joblib.load(pkl_path)
+
+print('{} [ info ] Engine running, dataframe created and model loaded ... we are in business.'.format(datetime.now()))
 
 # index webpage displays cool visuals and receives user input text for model
 @app.route('/')
@@ -89,9 +94,9 @@ def go():
     )
 
 
-def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+#def main():
+#    app.run(host='0.0.0.0', port=3001, debug=True)
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
