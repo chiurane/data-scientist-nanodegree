@@ -28,13 +28,14 @@ The project is made up of three components:
     Simply clone the following data science repo and get cracking:
     git clone https://github.com/chiurane/data-scientist-nanodegree.git
     The file classifier.pkl is to big to updload here so you will have to run "python -m models.train_classifier" to get the pkl file on your own machine
-  - Installation (Heroku)
+  - Running the Web Apop (Heroku)
+    The Web has been deployed to Heroku and can be accessed by running [DistasterResponsePipeline](https://dsnd-drs-proj.herokuapp.com/)
   - Running the Application
     Run the following commands (in this order) in the project's root directory to setup the database and data science assets:
     - To run the ETL pipeline that cleans data and stores the data in the database:
         python -m app.process_data disaster_messages.csv disaster_categories.csv DisasterResponse.db
     - To run the ML pipeline that trains classifier and the pclassifier in pickle file:
-        python -m models.train_classifier DisasterResponse.db classifier.pkl
+        python -m models.train_classifier DisasterResponse.db classifier.pkl (Train classifier not uploaded to git because its too big.
     - To run the webserver and prepare for web requests to the web app:
         python -m app.run
     - Go to http://localhost:3001/ if accessing locally otherwise go to ... on Heroku to access UI.
