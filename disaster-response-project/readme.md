@@ -18,7 +18,7 @@ The project is made up of three components:
   3. A models component which trains a classifier on the data set and stores the results a pickle file that call be queried in realtime to show classification results.
 ## Getting Started
   - Files in the repository
-    |- app - this package contains the web app files
+    |- app - this package contains the web app files \n
     |--- templates
     |------ go.html - the query template for displaying results
     |------ master.html - the main page template
