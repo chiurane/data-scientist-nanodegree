@@ -18,26 +18,26 @@ The project is made up of three components:
   3. A models component which trains a classifier on the data set and stores the results a pickle file that call be queried in realtime to show classification results.
 ## Getting Started
   - Files in the repository
-    |- app - this package contains the web app files \n
-    |--- templates
-    |------ go.html - the query template for displaying results
-    |------ master.html - the main page template
-    |--- __init__.py - package marker
-    |--- run.py - the file taht runs the web app, once this file is executed the web server is ready
-    |--- utils.py - the utils file contains generic functions to be by all components including tokenize function
-    |- data - this package contains the ETL components
-    |--- __init__.py - package marker
-    |--- disaster_categories.xls - the data file contains categories for training
-    |--- disaster_messages.xls - the file contains disaster messages for training
-    |--- DisasterResponse.db - when all the data clean-up is complete they are stored in this persistent storage
-    |--- process_data.py - the script to clean-up data and load into the database
-    |- models - this package contains the machine learning components
-    |--- __init__.py - package marker
-    |--- classifier.pkl - the model file produced once training is complete
-    |--- train_classifier.py - this file contains the machine learning pipeline
-    |- nltk.txt - contains the NLP dependencies in NLTK required to run the NLP features of the app
-    |- Procfile - required by Heroku to run gunircon as the web server for the app
-    |- requirements.txt - contains all the libraries required to run the application
+    |- app - this package contains the web app files  
+    |--- templates  
+    |------ go.html - the query template for displaying results  
+    |------ master.html - the main page template  
+    |--- __init__.py - package marker  
+    |--- run.py - the file taht runs the web app, once this file is executed the web server is ready  
+    |--- utils.py - the utils file contains generic functions to be by all components including tokenize function  
+    |- data - this package contains the ETL components  
+    |--- __init__.py - package marker  
+    |--- disaster_categories.xls - the data file contains categories for training  
+    |--- disaster_messages.xls - the file contains disaster messages for training  
+    |--- DisasterResponse.db - when all the data clean-up is complete they are stored in this persistent storage  
+    |--- process_data.py - the script to clean-up data and load into the database  
+    |- models - this package contains the machine learning components  
+    |--- __init__.py - package marker  
+    |--- classifier.pkl - the model file produced once training is complete  
+    |--- train_classifier.py - this file contains the machine learning pipeline  
+    |- nltk.txt - contains the NLP dependencies in NLTK required to run the NLP features of the app  
+    |- Procfile - required by Heroku to run gunircon as the web server for the app  
+    |- requirements.txt - contains all the libraries required to run the application  
   - Dependencies
       Python 3.7+: The core python language used throughout the project
       NumPy, SciPy, Pandas, Sciki-Learn: Machine Learning pipeline libraries
