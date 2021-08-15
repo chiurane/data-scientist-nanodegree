@@ -24,6 +24,7 @@ print('() [ info ] Opening database using engine ...'.format(datetime.now()))
 db_path = 'data/DisasterResponse.db'
 
 print('{} [ info ] DB path: {}'.format(datetime.now(), db_path))
+
 pkl_path = "models/classifier.pkl"
 
 print('{} [ info ] Pickle path: {}'.format(datetime.now(), pkl_path))
@@ -93,10 +94,10 @@ def go():
         classification_result=classification_results
     )
 
+# comment this out for Heroku deployment
+def main():
+    app.run(host='0.0.0.0', port=3001, debug=True)
 
-#def main():
-#    app.run(host='0.0.0.0', port=3001, debug=True)
-
-
-#if __name__ == '__main__':
-#    main()
+# comment this out for Heroku deployment
+if __name__ == '__main__':
+    main()
