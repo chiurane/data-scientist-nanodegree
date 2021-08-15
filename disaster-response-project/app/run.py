@@ -11,7 +11,7 @@ from datetime import datetime
 
 from flask import Flask
 from flask import render_template, request, jsonify
-from plotly.graph_objs import Bar
+from plotly.graph_objs import Bar, Scatter, Pie
 from sqlalchemy import create_engine
 
 from . import utils
@@ -45,7 +45,11 @@ def index():
     # TODO: Below is an example - modify to extract data for your own visuals
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
-    
+
+    # lets see how messages are distributed across categories
+    df_cat = df.drop(['id', 'message', 'original', 'genre'], axis=1).sum()
+    categories = list(df_cat.index)
+
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
     graphs = [
@@ -64,6 +68,25 @@ def index():
                 },
                 'xaxis': {
                     'title': "Genre"
+                }
+            }
+        },
+        {
+            'data': [
+                Scatter(
+                    x=categories,
+                    y=df_cat,
+                    mode='markers'
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Messages By Categories',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Categories"
                 }
             }
         }
