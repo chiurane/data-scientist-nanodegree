@@ -52,7 +52,7 @@ The project is made up of three components:
     
     |--- process_data.py - the script to clean-up data and engineer features  
     |- models - this package contains the machine learning components  
-    |--- __init__.py - package marker
+    |--- __init__.py - package marker 
     |--- train_classifier.py - this file contains the matrix factorization algorithm implementation
     |- requirements.txt - contains all the libraries required to run the application  
   - Dependencies
