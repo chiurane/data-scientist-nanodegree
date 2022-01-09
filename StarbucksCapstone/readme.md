@@ -60,7 +60,7 @@ The project is made up of three components:
       NumPy, SciPy, Pandas
       pickle: For persisiting models
   - Installation (locally)
-    Simply clone the following data science repo and get cracking:
+    Simply clone the following data science repo and follow instructions below:
     git clone https://github.com/chiurane/data-scientist-nanodegree.git
 - Running the Application
     Run the following commands (in this order) in the project's root directory to clean the data and build the system:
@@ -72,9 +72,10 @@ The project is made up of three components:
 ## Author
 [Michael Khumalo](https://github.com/chiurane) on [git](https://github.com) or [Michael Khumalo](https://linkedin.com/chiurane) on [linkedin](https://linkedin.com)
 ## Screenshot
-7. Classification Results
-    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/classification_results.PNG, "Classification Results")
-8. data.process_data shot sample output
-    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/process_data_shot.PNG "data.process_data sample output")
-9. models.train_classifier shot sample output
-    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/disaster-response-project/screenshots/models_train_classifier_shot.PNG "models.train_classifier sample output")
+7. data.process_data Data cleaning and engineering screen shot
+    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/data_process_data.PNG, "Process data screenshot")
+8. models.train_classifier Recommender System using FunkSVD algorithm
+    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/models_train_classifier.png "Train Classifier sample output")
+9. MSE per Latent features set shot sample output
+    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/mse_per_latent_features.PNG "latent features sample output")
+10. SSE per latent features set shot sample output ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/sse_per_latent_feature_set.PNG "latent features SSE")
