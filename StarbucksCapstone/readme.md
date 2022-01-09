@@ -43,7 +43,7 @@ The project is made up of three components:
     id (str) - customer id
     income (float) - customer's income
     
-    transcript.json
+    transcript.json (file too big to upload)
 
     event (str) - record description (ie transaction, offer received, offer viewed, etc.)
     person (str) - customer id
