@@ -73,7 +73,7 @@ The project is made up of three components:
 [Michael Khumalo](https://github.com/chiurane) on [git](https://github.com) or [Michael Khumalo](https://linkedin.com/chiurane) on [linkedin](https://linkedin.com)
 ## Screenshot
 7. data.process_data Data cleaning and engineering screen shot
-    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/data_process_data.PNG, "Process data screenshot")
+    ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/data_process_data.PNG "Process data screenshot")
 8. models.train_classifier Recommender System using FunkSVD algorithm
     ![Alt text](https://github.com/chiurane/data-scientist-nanodegree/blob/master/StarbucksCapstone/models_train_classifier.png "Train Classifier sample output")
 9. MSE per Latent features set shot sample output
